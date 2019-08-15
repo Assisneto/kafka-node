@@ -4,7 +4,13 @@
   "main": "index.js",
   "author": "Assisneto Damasceno",
   "license": "MIT",
+  "scripts": {
+    "dev": "sucrase-node src/index.js"
+  },
   "dependencies": {
     "kafkajs": "^1.10.0"
+  },
+  "devDependencies": {
+    "sucrase": "^3.10.1"
   }
 }

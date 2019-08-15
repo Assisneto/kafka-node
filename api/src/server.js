@@ -7,7 +7,11 @@ const app = express();
 
 const kafka = new Kafka({
   clientId: "api",
-  brokers: ["localhost:9092"]
+  brokers: ["localhost:9092"],
+  retry: {
+    initialRetryTime: 300,
+    retries: 10
+  }
 });
 
 const producer = kafka.producer();
