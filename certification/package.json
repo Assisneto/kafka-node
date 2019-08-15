@@ -1,0 +1,10 @@
+{
+  "name": "certification",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Assisneto Damasceno",
+  "license": "MIT",
+  "dependencies": {
+    "kafkajs": "^1.10.0"
+  }
+}
